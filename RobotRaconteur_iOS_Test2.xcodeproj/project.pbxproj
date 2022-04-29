@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BCCB725281A2CD400F246DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB724281A2CD400F246DA /* AppDelegate.m */; };
+		9BCCB728281A2CD400F246DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB727281A2CD400F246DA /* SceneDelegate.m */; };
+		9BCCB72B281A2CD400F246DA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB72A281A2CD400F246DA /* ViewController.mm */; };
+		9BCCB72E281A2CD400F246DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB72C281A2CD400F246DA /* Main.storyboard */; };
+		9BCCB730281A2CD500F246DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB72F281A2CD500F246DA /* Assets.xcassets */; };
+		9BCCB733281A2CD500F246DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCB731281A2CD500F246DA /* LaunchScreen.storyboard */; };
+		9BCCB736281A2CD500F246DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB735281A2CD500F246DA /* main.m */; };
+		9BCCB759281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB753281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp */; };
+		9BCCB75A281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB754281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp */; };
+		9BCCB75D281A40B000F246DA /* ServiceTestClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB75C281A40B000F246DA /* ServiceTestClient.cpp */; };
+		9BCCB760281A40FB00F246DA /* CompareArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB75F281A40FB00F246DA /* CompareArray.cpp */; };
+		9BCCB7E5281A58DE00F246DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7E4281A58DD00F246DA /* Security.framework */; };
+		9BCCB7E7281A58E900F246DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7E6281A58E800F246DA /* UIKit.framework */; };
+		9BCCB7E9281A58F500F246DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7E8281A58F400F246DA /* CoreGraphics.framework */; };
+		9BCCB7EB281A58FA00F246DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7EA281A58F900F246DA /* Foundation.framework */; };
+		9BE90C03281B9F2E00531A02 /* robotraconteur.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE90C02281B9F2E00531A02 /* robotraconteur.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BCCB720281A2CD400F246DA /* RobotRaconteur_iOS_Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotRaconteur_iOS_Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCCB723281A2CD400F246DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BCCB724281A2CD400F246DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BCCB726281A2CD400F246DA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9BCCB727281A2CD400F246DA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9BCCB729281A2CD400F246DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BCCB72A281A2CD400F246DA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		9BCCB72D281A2CD400F246DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BCCB72F281A2CD500F246DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCCB732281A2CD500F246DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BCCB734281A2CD500F246DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCCB735281A2CD500F246DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCCB750281A3D1500F246DA /* RRTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRTest.h; sourceTree = "<group>"; };
+		9BCCB753281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = com__robotraconteur__testing__TestService1_stubskel.cpp; sourceTree = "<group>"; };
+		9BCCB754281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = com__robotraconteur__testing__TestService2_stubskel.cpp; sourceTree = "<group>"; };
+		9BCCB755281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com__robotraconteur__testing__TestService1_stubskel.h; sourceTree = "<group>"; };
+		9BCCB756281A409700F246DA /* com__robotraconteur__testing__TestService1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com__robotraconteur__testing__TestService1.h; sourceTree = "<group>"; };
+		9BCCB757281A409700F246DA /* com__robotraconteur__testing__TestService2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com__robotraconteur__testing__TestService2.h; sourceTree = "<group>"; };
+		9BCCB758281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com__robotraconteur__testing__TestService2_stubskel.h; sourceTree = "<group>"; };
+		9BCCB75B281A40B000F246DA /* ServiceTestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTestClient.h; sourceTree = "<group>"; };
+		9BCCB75C281A40B000F246DA /* ServiceTestClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServiceTestClient.cpp; sourceTree = "<group>"; };
+		9BCCB75E281A40FB00F246DA /* CompareArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareArray.h; sourceTree = "<group>"; };
+		9BCCB75F281A40FB00F246DA /* CompareArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompareArray.cpp; sourceTree = "<group>"; };
+		9BCCB7E4281A58DD00F246DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9BCCB7E6281A58E800F246DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BCCB7E8281A58F400F246DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BCCB7EA281A58F900F246DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BE90C02281B9F2E00531A02 /* robotraconteur.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = robotraconteur.xcframework; path = ../ios3/robotraconteur/build_xcframework/robotraconteur.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCCB71D281A2CD400F246DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE90C03281B9F2E00531A02 /* robotraconteur.xcframework in Frameworks */,
+				9BCCB7EB281A58FA00F246DA /* Foundation.framework in Frameworks */,
+				9BCCB7E9281A58F500F246DA /* CoreGraphics.framework in Frameworks */,
+				9BCCB7E7281A58E900F246DA /* UIKit.framework in Frameworks */,
+				9BCCB7E5281A58DE00F246DA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCCB717281A2CD400F246DA = {
+			isa = PBXGroup;
+			children = (
+				9BCCB722281A2CD400F246DA /* RobotRaconteur_iOS_Test2 */,
+				9BCCB721281A2CD400F246DA /* Products */,
+				9BCCB761281A419E00F246DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCCB721281A2CD400F246DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB720281A2CD400F246DA /* RobotRaconteur_iOS_Test2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCCB722281A2CD400F246DA /* RobotRaconteur_iOS_Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				9BCCB750281A3D1500F246DA /* RRTest.h */,
+				9BCCB753281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp */,
+				9BCCB755281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.h */,
+				9BCCB756281A409700F246DA /* com__robotraconteur__testing__TestService1.h */,
+				9BCCB754281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp */,
+				9BCCB75C281A40B000F246DA /* ServiceTestClient.cpp */,
+				9BCCB75B281A40B000F246DA /* ServiceTestClient.h */,
+				9BCCB75F281A40FB00F246DA /* CompareArray.cpp */,
+				9BCCB75E281A40FB00F246DA /* CompareArray.h */,
+				9BCCB758281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.h */,
+				9BCCB757281A409700F246DA /* com__robotraconteur__testing__TestService2.h */,
+				9BCCB723281A2CD400F246DA /* AppDelegate.h */,
+				9BCCB724281A2CD400F246DA /* AppDelegate.m */,
+				9BCCB726281A2CD400F246DA /* SceneDelegate.h */,
+				9BCCB727281A2CD400F246DA /* SceneDelegate.m */,
+				9BCCB729281A2CD400F246DA /* ViewController.h */,
+				9BCCB72A281A2CD400F246DA /* ViewController.mm */,
+				9BCCB72C281A2CD400F246DA /* Main.storyboard */,
+				9BCCB72F281A2CD500F246DA /* Assets.xcassets */,
+				9BCCB731281A2CD500F246DA /* LaunchScreen.storyboard */,
+				9BCCB734281A2CD500F246DA /* Info.plist */,
+				9BCCB735281A2CD500F246DA /* main.m */,
+			);
+			path = RobotRaconteur_iOS_Test2;
+			sourceTree = "<group>";
+		};
+		9BCCB761281A419E00F246DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BE90C02281B9F2E00531A02 /* robotraconteur.xcframework */,
+				9BCCB7EA281A58F900F246DA /* Foundation.framework */,
+				9BCCB7E8281A58F400F246DA /* CoreGraphics.framework */,
+				9BCCB7E6281A58E800F246DA /* UIKit.framework */,
+				9BCCB7E4281A58DD00F246DA /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCCB71F281A2CD400F246DA /* RobotRaconteur_iOS_Test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCCB739281A2CD500F246DA /* Build configuration list for PBXNativeTarget "RobotRaconteur_iOS_Test2" */;
+			buildPhases = (
+				9BCCB71C281A2CD400F246DA /* Sources */,
+				9BCCB71D281A2CD400F246DA /* Frameworks */,
+				9BCCB71E281A2CD400F246DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotRaconteur_iOS_Test2;
+			productName = RobotRaconteur_iOS_Test2;
+			productReference = 9BCCB720281A2CD400F246DA /* RobotRaconteur_iOS_Test2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCCB718281A2CD400F246DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9BCCB71F281A2CD400F246DA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BCCB71B281A2CD400F246DA /* Build configuration list for PBXProject "RobotRaconteur_iOS_Test2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BCCB717281A2CD400F246DA;
+			productRefGroup = 9BCCB721281A2CD400F246DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCCB71F281A2CD400F246DA /* RobotRaconteur_iOS_Test2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCCB71E281A2CD400F246DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCCB733281A2CD500F246DA /* LaunchScreen.storyboard in Resources */,
+				9BCCB730281A2CD500F246DA /* Assets.xcassets in Resources */,
+				9BCCB72E281A2CD400F246DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCCB71C281A2CD400F246DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCCB72B281A2CD400F246DA /* ViewController.mm in Sources */,
+				9BCCB725281A2CD400F246DA /* AppDelegate.m in Sources */,
+				9BCCB75D281A40B000F246DA /* ServiceTestClient.cpp in Sources */,
+				9BCCB736281A2CD500F246DA /* main.m in Sources */,
+				9BCCB728281A2CD400F246DA /* SceneDelegate.m in Sources */,
+				9BCCB759281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp in Sources */,
+				9BCCB75A281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp in Sources */,
+				9BCCB760281A40FB00F246DA /* CompareArray.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCCB72C281A2CD400F246DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCCB72D281A2CD400F246DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BCCB731281A2CD500F246DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCCB732281A2CD500F246DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCCB737281A2CD500F246DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BCCB738281A2CD500F246DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCCB73A281A2CD500F246DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V58789AH9M;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RobotRaconteur_iOS_Test2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wasontech.RobotRaconteur-iOS-Test2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES_ERROR;
+			};
+			name = Debug;
+		};
+		9BCCB73B281A2CD500F246DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V58789AH9M;
+				ENABLE_BITCODE = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RobotRaconteur_iOS_Test2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wasontech.RobotRaconteur-iOS-Test2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES_ERROR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCCB71B281A2CD400F246DA /* Build configuration list for PBXProject "RobotRaconteur_iOS_Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCCB737281A2CD500F246DA /* Debug */,
+				9BCCB738281A2CD500F246DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCCB739281A2CD500F246DA /* Build configuration list for PBXNativeTarget "RobotRaconteur_iOS_Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCCB73A281A2CD500F246DA /* Debug */,
+				9BCCB73B281A2CD500F246DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCCB718281A2CD400F246DA /* Project object */;
+}
