@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1F27E22A4EC970002226BF /* robotraconteur_test_lfsr.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F27DE2A4EC970002226BF /* robotraconteur_test_lfsr.c */; };
 		9BCCB725281A2CD400F246DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB724281A2CD400F246DA /* AppDelegate.m */; };
 		9BCCB728281A2CD400F246DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB727281A2CD400F246DA /* SceneDelegate.m */; };
 		9BCCB72B281A2CD400F246DA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCB72A281A2CD400F246DA /* ViewController.mm */; };
@@ -22,10 +23,15 @@
 		9BCCB7E7281A58E900F246DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7E6281A58E800F246DA /* UIKit.framework */; };
 		9BCCB7E9281A58F500F246DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7E8281A58F400F246DA /* CoreGraphics.framework */; };
 		9BCCB7EB281A58FA00F246DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCCB7EA281A58F900F246DA /* Foundation.framework */; };
-		9BE90C03281B9F2E00531A02 /* robotraconteur.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE90C02281B9F2E00531A02 /* robotraconteur.xcframework */; };
+		9BE90C03281B9F2E00531A02 /* robotraconteur.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE90C02281B9F2E00531A02 /* robotraconteur.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1F27DC2A4EC8A8002226BF /* array_compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array_compare.h; sourceTree = "<group>"; };
+		9B1F27DD2A4EC8C4002226BF /* multidim_array_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multidim_array_util.h; sourceTree = "<group>"; };
+		9B1F27DE2A4EC970002226BF /* robotraconteur_test_lfsr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = robotraconteur_test_lfsr.c; sourceTree = "<group>"; };
+		9B1F27E02A4EC970002226BF /* robotraconteur_test_lfsr_cpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = robotraconteur_test_lfsr_cpp.h; sourceTree = "<group>"; };
+		9B1F27E12A4EC970002226BF /* robotraconteur_test_lfsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = robotraconteur_test_lfsr.h; sourceTree = "<group>"; };
 		9BCCB720281A2CD400F246DA /* RobotRaconteur_iOS_Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotRaconteur_iOS_Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCCB723281A2CD400F246DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BCCB724281A2CD400F246DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +98,11 @@
 		9BCCB722281A2CD400F246DA /* RobotRaconteur_iOS_Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B1F27E02A4EC970002226BF /* robotraconteur_test_lfsr_cpp.h */,
+				9B1F27DE2A4EC970002226BF /* robotraconteur_test_lfsr.c */,
+				9B1F27E12A4EC970002226BF /* robotraconteur_test_lfsr.h */,
+				9B1F27DC2A4EC8A8002226BF /* array_compare.h */,
+				9B1F27DD2A4EC8C4002226BF /* multidim_array_util.h */,
 				9BCCB750281A3D1500F246DA /* RRTest.h */,
 				9BCCB753281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp */,
 				9BCCB755281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.h */,
@@ -157,7 +168,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					9BCCB71F281A2CD400F246DA = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -204,6 +215,7 @@
 				9BCCB725281A2CD400F246DA /* AppDelegate.m in Sources */,
 				9BCCB75D281A40B000F246DA /* ServiceTestClient.cpp in Sources */,
 				9BCCB736281A2CD500F246DA /* main.m in Sources */,
+				9B1F27E22A4EC970002226BF /* robotraconteur_test_lfsr.c in Sources */,
 				9BCCB728281A2CD400F246DA /* SceneDelegate.m in Sources */,
 				9BCCB759281A409700F246DA /* com__robotraconteur__testing__TestService1_stubskel.cpp in Sources */,
 				9BCCB75A281A409700F246DA /* com__robotraconteur__testing__TestService2_stubskel.cpp in Sources */,
@@ -237,7 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -296,7 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -348,12 +360,14 @@
 		9BCCB73A281A2CD500F246DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V58789AH9M;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
@@ -363,6 +377,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,12 +396,14 @@
 		9BCCB73B281A2CD500F246DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V58789AH9M;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
@@ -396,6 +413,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
